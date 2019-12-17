@@ -2,11 +2,11 @@ A Rest api to update the product price.
 
 >To start server in local environment
 
-`**java -jar build/libs/dukan-rest-0.0.1-SNAPSHOT.jar**`
+` java -jar build/libs/dukan-rest-0.0.1-SNAPSHOT.jar `
 
 >To start server in product environment 
 
-`**java -jar build/libs/dukan-rest-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod**`
+` java -jar build/libs/dukan-rest-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod `
 
 ### Api Detail
 
@@ -22,7 +22,7 @@ Request Body : {
 
 ### Files Detail
 
-** Connection.java ** :
+**Connection.java** :
 
 Path : [dukan-rest/src/main/java/com/example/dukanrest/connection/](https://github.com/Rishabhkshatri/dukan-rest/tree/master/src/main/java/com/example/dukanrest/connection)
 
