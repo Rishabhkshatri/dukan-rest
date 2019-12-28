@@ -8,6 +8,8 @@ A Rest api to update the product price.
 
 ` java -jar build/libs/dukan-rest-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod `
 
+**Api require elasticsearch version 6.8.5 to woking properly**
+
 ### Api Detail
 
 **Api to** : update the price of a product given with the group and the price.
