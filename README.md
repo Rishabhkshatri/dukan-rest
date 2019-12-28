@@ -158,9 +158,9 @@ Class : Connection
 
  - Method : client
  
-   - Return : TransportClient
+   - Return : RestHighLevelClient
 
- - Method Description : The method establish a transport client connection with the elastic search use _host_ and _port_ variable whose values depends upon the environment it is running and return and transport client.
+ - Method Description : The method establish a http client connection with the elastic search use _host_ and _port_ variable whose values depends on the environment it is running and return and RestHighLevelClient.
 
 **Controller.java**
 
